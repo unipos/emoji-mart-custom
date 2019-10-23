@@ -17,7 +17,7 @@ import Search from '../search'
 import { PickerDefaultProps } from '../../utils/shared-default-props'
 
 const I18N = {
-  search: 'Search',
+  search: 'Search!!!!!',
   clear: 'Clear', // Accessible label on "clear" button
   notfound: 'No Emoji Found',
   skintext: 'Choose your default skin tone',
