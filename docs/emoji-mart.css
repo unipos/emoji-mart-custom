@@ -46,7 +46,7 @@
   display: block;
   flex: 1 1 auto;
   text-align: center;
-  padding: 12px 4px;
+  padding: 10px 4px;
   overflow: hidden;
   transition: color .1s ease-out;
   margin: 0;
@@ -97,7 +97,7 @@
 }
 
 .emoji-mart-search input {
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   width: 100%;
   padding: 5px 25px 6px 10px;
