@@ -499,7 +499,7 @@ export default class NimblePicker extends React.PureComponent {
         notFoundEmoji,
       } = this.props,
       { skin } = this.state,
-      width = perLine * (emojiSize + 10) + 10 + 2 + measureScrollbar()
+      width = perLine * (emojiSize + 12) + 12 + 2 + measureScrollbar()
 
     return (
       <section
@@ -591,7 +591,7 @@ export default class NimblePicker extends React.PureComponent {
               showPreview={showPreview}
               emojiProps={{
                 native: native,
-                size: 38,
+                size: 30,
                 skin: skin,
                 set: set,
                 sheetSize: sheetSize,

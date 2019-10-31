@@ -85,7 +85,7 @@
 
 .emoji-mart-scroll {
   overflow-y: scroll;
-  height: 270px;
+  height: 210px;
   padding: 0 6px 6px 6px;
   will-change: transform; /* avoids "repaints on scroll" in mobile Chrome */
 }
@@ -211,7 +211,7 @@
 
 .emoji-mart-preview {
   position: relative;
-  height: 70px;
+  height: 52px;
 }
 
 .emoji-mart-preview-emoji,
@@ -271,7 +271,7 @@
 
 .emoji-mart-title-label {
   color: #999A9C;
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 300;
 }
 
