@@ -87,6 +87,7 @@ export default class Search extends React.PureComponent {
       <section className="emoji-mart-search" aria-label={i18n.search}>
         <input
           id={inputId}
+          style={{fontSize: "14px"}}
           ref={this.setRef}
           type="search"
           onChange={this.handleChange}
