@@ -499,7 +499,7 @@ export default class NimblePicker extends React.PureComponent {
         notFoundEmoji,
       } = this.props,
       { skin } = this.state,
-      width = perLine * (emojiSize + 12) + 12 + 2 + measureScrollbar()
+      width = perLine * (emojiSize + 10) + 10 + 2 + measureScrollbar()
 
     return (
       <section
@@ -539,6 +539,7 @@ export default class NimblePicker extends React.PureComponent {
         >
           {this.getCategories().map((category, i) => {
             return (
+              <Category
               <Category
                 ref={this.setCategoryRef.bind(this, `category-${i}`)}
                 key={category.name}
